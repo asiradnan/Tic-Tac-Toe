@@ -1,4 +1,4 @@
-let p1=0,p2=0;
+let p1=0,p2=0,cnt=0;
 let flag=true,undo_flag=false,cur=true;
 let last_move;
 td = document.getElementsByTagName('td')
@@ -10,7 +10,9 @@ function changeName(value){
     let x= prompt("Enter your name:",elem.innerHTML);
     elem.innerHTML=x;
 }
-
+function rules() {
+    alert('After every round, other player makes the first move!');
+}
 function move(){
     if (this.innerHTML != '&nbsp;') return;
     if (flag) {
@@ -22,6 +24,8 @@ function move(){
         this.style.fontWeight='900';
         this.style.fontSize='58px';
     }
+    cnt++;
+    
     flag=!flag;
     undo_flag=true;
     last_move=this;
@@ -33,18 +37,19 @@ function undo(){
         last_move.innerHTML='&nbsp';
         undo_flag=false;
         flag=!flag;
+        cnt--;
     }
 }
 
-let _11 =document.getElementById('11');
-let _12 =document.getElementById('12');
-let _13 =document.getElementById('13');
-let _21 =document.getElementById('21');
-let _22 =document.getElementById('22');
-let _23 =document.getElementById('23');
-let _31 =document.getElementById('31');
-let _32 =document.getElementById('32');
-let _33 =document.getElementById('33');
+let _11 = document.getElementById('11');
+let _12 = document.getElementById('12');
+let _13 = document.getElementById('13');
+let _21 = document.getElementById('21');
+let _22 = document.getElementById('22');
+let _23 = document.getElementById('23');
+let _31 = document.getElementById('31');
+let _32 = document.getElementById('32');
+let _33 = document.getElementById('33');
 
 function rematch(){
     _11.innerHTML='&nbsp;';
@@ -58,6 +63,7 @@ function rematch(){
     _33.innerHTML='&nbsp;';
     cur=!cur;
     flag=cur;
+    cnt=0;
 }
 
 function check_winner(){
@@ -72,6 +78,10 @@ function check_winner(){
         }
         document.getElementById("P1score").innerHTML=p1;
         document.getElementById("P2score").innerHTML=p2;
+        rematch();
+    }
+    function draw(){
+        alert("Match ends up with a DRAW!")
         rematch();
     }
     let _11 =document.getElementById('11').innerHTML;
@@ -91,4 +101,5 @@ function check_winner(){
     else if (_33 == _23 && _33 == _13 && _33 != '&nbsp;')  setTimeout(winner,100);
     else if (_11 == _22 && _11 == _33 && _11 != '&nbsp;') setTimeout(winner,100);
     else if (_31 == _22 && _31 == _13 && _31 != '&nbsp;')  setTimeout(winner,100);
+    else if (cnt==9) setTimeout(draw,100);
 }
