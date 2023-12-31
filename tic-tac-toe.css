@@ -36,6 +36,7 @@ button{
     border:0;
     width: 20px;
     text-align: left;
+    cursor: pointer;
 }
 #P1score, #P2score{
     border:0;
