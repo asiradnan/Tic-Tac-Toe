@@ -11,7 +11,7 @@ function changeName(value){
     elem.innerHTML=x;
 }
 function rules() {
-    alert('End of every round, the player who makes the first move changes!\nYes, after every round!');
+    alert('End of every round, the player who makes the first move changes!\nAfter EVERY round!');
 }
 function move(){
     if (this.innerHTML != '&nbsp;') return;
