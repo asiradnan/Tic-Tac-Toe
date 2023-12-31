@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href="./tic-tac-toe.css">
+    <title>Tic Tac Toe!</title>
+</head>
+<body>
+    <div id="stats">
+        <table class="nameTable">
+            <tr>
+                <td id="P1name" onclick="changeName('P1name')">Player 1</td> <td class="e"> : </td><td id='P1score'>0</td>
+            </tr> 
+            <tr>
+                <td id="P2name" onclick="changeName('P2name')">Player 2</td> <td class="e"> : </td><td id='P2score'>0</td>
+            </tr>        
+        </table>
+       
+    </div>
+    <div id="board">
+        <table>
+            <tr>
+                <td id="11">&nbsp</td><td id="12">&nbsp</td><td id="13">&nbsp</td>
+            </tr>
+            <tr>
+                <td id="21">&nbsp</td><td id="22">&nbsp</td><td id="23">&nbsp</td>
+            </tr>
+            <tr>
+                <td id="31">&nbsp</td><td id="32">&nbsp</td><td id="33">&nbsp</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div id="control">
+        <button onclick="undo()"> Undo</button>
+    </div>
+    <script src="tic-tac-toe.js"></script>
+</body>
+</html>
