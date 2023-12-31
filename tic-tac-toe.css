@@ -31,7 +31,11 @@ button{
     font-family: 'sans-serif';
     border-radius: 30px;
 }
-
+#rule{
+    color:#262626;
+    background-color: #3bfa48;
+    margin-top: 10px;
+}
 #P1name, #P2name {
     border:0;
     width: 20px;
