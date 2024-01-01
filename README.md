@@ -22,5 +22,5 @@ Check out the live demo [here](https://asiradnan.github.io/Tic-Tac-Toe/)!
 ## Screenshots
 
 
-![Gameplay Screenshot](./Screenshots/snap1.png)
+![Gameplay Screenshot](./Screenshots/snap1.png)\
 ![Gameplay Screenshot](./Screenshots/snap2.png)
