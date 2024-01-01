@@ -3,9 +3,7 @@
 
 A classic Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript. 
 
-## Demo
-
-Check out the live demo [here](https://asiradnan.github.io/Tic-Tac-Toe/)!
+## Live Demo [here](https://asiradnan.github.io/Tic-Tac-Toe/)!
 
 
 ## Features
