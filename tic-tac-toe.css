@@ -52,6 +52,13 @@ button{
     width: 1px;
     text-align: center;
 }
+#symb{
+    border:0;
+    width: 5px;
+    text-align: center;
+    font-weight:'200';
+}
+
 .nameTable{
     height: 80px;
     width: 250px;
