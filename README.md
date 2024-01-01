@@ -3,6 +3,10 @@
 
 A classic Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript. 
 
+## Demo
+
+Check out the live demo [here](https://asiradnan.github.io/Tic-Tac-Toe/)!
+
 
 ## Features
 
@@ -10,12 +14,6 @@ A classic Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript.
 - Track your scores
 - Undo only YOUR last move
 - First move is toggled after every round. 
-
-
-## Demo
-
-Check out the live demo [here](https://asiradnan.github.io/Tic-Tac-Toe/)!
-
 
 
 
