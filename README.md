@@ -22,8 +22,8 @@ Check out the live demo [here](https://asiradnan.github.io/Tic-Tac-Toe/)!
 ## Screenshots
 
 ### Gameplay
-<img src="./Screenshots/snap2.png" height="400" alt="Gameplay Screenshot 2">
+<img src="./Screenshots/snap2.png" height="300" width='300' alt="Gameplay Screenshot 2">
 
 ### Result
-<img src="./Screenshots/snap1.png" height="400" alt="Gameplay Screenshot 1">
+<img src="./Screenshots/snap1.png" height="400" width='300' alt="Gameplay Screenshot 1">
 
