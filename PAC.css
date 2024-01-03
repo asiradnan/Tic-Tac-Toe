@@ -65,7 +65,6 @@ button:hover{
 }
 #done{
     background-color: #3cff49;
-    font-size: 35px; 
     font-weight: 700;
     flex:40%;
     margin-right: 5px;
