@@ -1,12 +1,11 @@
 let p1=0,p2=0,cnt=0;
 let flag=true,undo_flag=false,cur=true;
 let last_move;
-td = document.getElementsByTagName('td')
-
+td = document.getElementsByTagName('td');
 for (let i=0;i<td.length;i++) td[i].addEventListener('click',move);
 
-function changeName(value){
-    elem=document.getElementById(value);
+function changeName(){
+    elem=document.getElementById('P1name');
     let x= prompt("Enter your name:",elem.innerHTML);
     elem.innerHTML=x;
 }
@@ -24,6 +23,7 @@ function move(){
         this.style.fontWeight='900';
         this.style.fontSize='58px';
     }
+    this.classList.add('char');
     cnt++;
     
     flag=!flag;
@@ -35,6 +35,7 @@ function move(){
 function undo(){
     if (undo_flag) {
         last_move.innerHTML='&nbsp';
+        last_move.classList.remove('char');
         undo_flag=false;
         flag=!flag;
         cnt--;

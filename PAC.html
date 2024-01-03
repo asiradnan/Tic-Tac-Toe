@@ -2,17 +2,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href="./tic-tac-toe.css">
+    <link rel='stylesheet' href="PAC.css">
     <title>Tic Tac Toe!</title>
 </head>
 <body>
     <div id="stats">
         <table class="nameTable">
             <tr>
-                <td id="symb">&#10060</td><td id="P1name" onclick="changeName('P1name')">Player 1</td> <td class="e"> : </td><td id='P1score'>0</td>
+                <td id="symb">&#10060</td><td id="P1name" onclick="changeName('P1name')">Human</td> <td class="e"> : </td><td id='P1score'>0</td>
             </tr> 
             <tr>
-                <td id="symb">&#9711</td><td id="P2name" onclick="changeName('P2name')">Player 2</td> <td class="e"> : </td><td id='P2score'>0</td>
+                <td  id="symb">&#9711</td><td id="P2name" title="Intelligence by Asir"><b>Computer</b></td> <td class="e"> : </td><td id='P2score'>0</td>
             </tr>        
         </table>
        
@@ -31,11 +31,10 @@
         </table>
     </div> 
     <div id="control">
-        <button onclick="undo()"> Undo</button><br>
-        <a href="PAC.html"><button id="btn">Play Against PC</button></a><br>
-        <button id='rule' onclick="rules()">We have only 1 rule!</button>
+        <div class="btn_con"><button id="done" onclick="confirm()"> &check;</button><br><button id='un' onclick="undo()"> Undo</button><br></div>
         
+        <button id='rule' onclick="rules()">We have only 1 rule!</button>
     </div>
-    <script src="tic-tac-toe.js"></script>
+    <script src="PAC.js"></script>
 </body>
 </html>

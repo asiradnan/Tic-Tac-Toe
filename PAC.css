@@ -17,42 +17,20 @@ td{
 #board td{
     cursor:crosshair;
 }
-#board .char:hover{
-    cursor:not-allowed;
-}
 table{
     height: 100%;
     width: 100%;
     border-spacing: 0;
 }
-#control{
-    margin: auto;
-    margin-top: 30px;
-    text-align: center;
-}
-button{
-    height: 40px;
-    width: 300px;
-    color:#eeeded;
-    background-color: #f95959;
-    font-family: sans-serif;
-    border-radius: 30px;
-    margin-top: 10px;
-}
-#rule{
-    color:#262626;
-    background-color: #3bfa48;
-}
-#btn{
-    background: linear-gradient(to right, #ff5733, #ffda49, #ffd700);
-    color: white;
-    font-weight: 500;
-    border-color:rgb(239, 192, 74);
-}
+
 button:hover{
     cursor: pointer;
 }
-#P1name, #P2name {
+#P2name{
+    border:0;
+    cursor: not-allowed;
+}
+#P1name {
     border:0;
     width: 20px;
     text-align: left;
@@ -84,4 +62,40 @@ button:hover{
     margin-bottom: 50px;
     font-size: 30px;
     font-family: 'sans-serif';
+}
+#done{
+    background-color: #3cff49;
+    font-size: 35px; 
+    font-weight: 700;
+    flex:40%;
+    margin-right: 5px;
+}
+.btn_con{
+    display: flex;
+    height: 40px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+#un{
+    flex: 40%;
+    
+}
+#control{
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+button{
+    height: 40px;
+    width: 300px;
+    color:#eeeded;
+    background-color: #f95959;
+    font-family: sans-serif;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+#rule{
+    color:#262626;
+    background-color: #3bfa48;
 }
