@@ -50,7 +50,31 @@ function confirm(){
 }   
 function go_on(){
     let ans;
-    if (_11.innerHTML == _12.innerHTML && _11.innerHTML != '&nbsp;') ans=_13;
+    if (_11.innerHTML == _12.innerHTML && _11.innerHTML == '◯' && _13.innerHTML== '&nbsp;') ans=_13;
+    else if (_11.innerHTML == _13.innerHTML && _11.innerHTML == '◯' && _12.innerHTML== '&nbsp;') ans=_12;
+    else if (_12.innerHTML == _13.innerHTML && _12.innerHTML == '◯' && _11.innerHTML== '&nbsp;') ans=_11;
+    else if (_21.innerHTML == _22.innerHTML && _21.innerHTML == '◯' && _23.innerHTML== '&nbsp;') ans=_23;
+    else if (_21.innerHTML == _23.innerHTML && _21.innerHTML == '◯' && _22.innerHTML== '&nbsp;') ans=_22;
+    else if (_22.innerHTML == _23.innerHTML && _22.innerHTML == '◯' && _21.innerHTML== '&nbsp;') ans=_21;
+    else if (_31.innerHTML == _32.innerHTML && _31.innerHTML == '◯' && _33.innerHTML== '&nbsp;') ans=_33;
+    else if (_31.innerHTML == _33.innerHTML && _31.innerHTML == '◯' && _32.innerHTML== '&nbsp;') ans=_32;
+    else if (_32.innerHTML == _33.innerHTML && _32.innerHTML == '◯' && _31.innerHTML== '&nbsp;') ans=_31;
+    else if (_11.innerHTML == _21.innerHTML && _11.innerHTML == '◯' && _31.innerHTML== '&nbsp;') ans=_31;
+    else if (_11.innerHTML == _31.innerHTML && _11.innerHTML == '◯' && _21.innerHTML== '&nbsp;') ans=_21;
+    else if (_21.innerHTML == _31.innerHTML && _21.innerHTML == '◯' && _11.innerHTML== '&nbsp;') ans=_11;
+    else if (_12.innerHTML == _22.innerHTML && _12.innerHTML == '◯' && _32.innerHTML== '&nbsp;') ans=_32;
+    else if (_12.innerHTML == _32.innerHTML && _12.innerHTML == '◯' && _22.innerHTML== '&nbsp;') ans=_22;
+    else if (_22.innerHTML == _32.innerHTML && _22.innerHTML == '◯' && _12.innerHTML== '&nbsp;') ans=_12;
+    else if (_13.innerHTML == _23.innerHTML && _13.innerHTML == '◯' && _33.innerHTML== '&nbsp;') ans=_33;
+    else if (_13.innerHTML == _33.innerHTML && _13.innerHTML == '◯' && _23.innerHTML== '&nbsp;') ans=_23;
+    else if (_23.innerHTML == _33.innerHTML && _23.innerHTML == '◯' && _13.innerHTML== '&nbsp;') ans=_13;
+    else if (_11.innerHTML == _22.innerHTML && _11.innerHTML == '◯' && _33.innerHTML== '&nbsp;') ans=_33;
+    else if (_11.innerHTML == _33.innerHTML && _11.innerHTML == '◯' && _22.innerHTML== '&nbsp;') ans=_22;
+    else if (_22.innerHTML == _33.innerHTML && _22.innerHTML == '◯' && _11.innerHTML== '&nbsp;') ans=_11;
+    else if (_13.innerHTML == _22.innerHTML && _13.innerHTML == '◯' && _31.innerHTML== '&nbsp;') ans=_31;
+    else if (_13.innerHTML == _31.innerHTML && _13.innerHTML == '◯' && _22.innerHTML== '&nbsp;') ans=_22;
+    else if (_22.innerHTML == _31.innerHTML && _22.innerHTML == '◯' && _13.innerHTML== '&nbsp;') ans=_13;
+    else if (_11.innerHTML == _12.innerHTML && _11.innerHTML != '&nbsp;' && _13.innerHTML== '&nbsp;') ans=_13;
     else if (_11.innerHTML == _13.innerHTML && _11.innerHTML != '&nbsp;' && _12.innerHTML== '&nbsp;') ans=_12;
     else if (_12.innerHTML == _13.innerHTML && _12.innerHTML != '&nbsp;' && _11.innerHTML== '&nbsp;') ans=_11;
     else if (_21.innerHTML == _22.innerHTML && _21.innerHTML != '&nbsp;' && _23.innerHTML== '&nbsp;') ans=_23;
@@ -86,6 +110,10 @@ function go_on(){
     else if (_11.innerHTML == _21.innerHTML && _21.innerHTML == '&nbsp;' && _31.innerHTML== '◯') ans=_11;
     else if (_33.innerHTML == _23.innerHTML && _23.innerHTML == '&nbsp;' && _13.innerHTML== '◯') ans=_33;
     else if (_13.innerHTML == _23.innerHTML && _23.innerHTML == '&nbsp;' && _33.innerHTML== '◯') ans=_13;
+    else if (_13.innerHTML == _22.innerHTML && _22.innerHTML == '&nbsp;' && _31.innerHTML== '❌') ans=_13;
+    else if (_31.innerHTML == _22.innerHTML && _22.innerHTML == '&nbsp;' && _13.innerHTML== '❌') ans=_31;
+    else if (_11.innerHTML == _22.innerHTML && _22.innerHTML == '&nbsp;' && _33.innerHTML== '❌') ans=_11;
+    else if (_33.innerHTML == _22.innerHTML && _22.innerHTML == '&nbsp;' && _11.innerHTML== '❌') ans=_33;
     else if (_11.innerHTML == '&nbsp;') ans=_11;
     else if (_13.innerHTML == '&nbsp;') ans=_13;
     else if (_31.innerHTML == '&nbsp;') ans=_31;
@@ -95,6 +123,10 @@ function go_on(){
     else if (_32.innerHTML == '&nbsp;') ans=_32;
     else if (_21.innerHTML == '&nbsp;') ans=_21;
     else if (_23.innerHTML == '&nbsp;') ans=_23;
+    console.log(_11.innerHTML, _12.innerHTML, _13.innerHTML);
+console.log(_21.innerHTML, _22.innerHTML, _23.innerHTML);
+console.log(_31.innerHTML, _32.innerHTML, _33.innerHTML);
+
     ans.innerHTML='&#9711;';
     ans.style.fontWeight='900';
     ans.style.fontSize='58px';
@@ -122,11 +154,11 @@ function rematch(){
 function check_winner(){
     function winner(){
         if (flag) {
-            alert(document.getElementById('P2name').innerHTML+' wins!');
+            alert('Computer won!');
             p2++;
         }
         else {
-            alert(document.getElementById('P1name').innerHTML+' wins!');
+            alert(document.getElementById('P1name').innerHTML+' won!');
             p1++;
         }
         document.getElementById("P1score").innerHTML=p1;
@@ -159,11 +191,11 @@ function check_winner(){
 function check_winner_first(){
     function winner(){
         if (flag) {
-            alert(document.getElementById('P2name').innerHTML+' wins!');
+            alert('Computer won!');
             p2++;
         }
         else {
-            alert(document.getElementById('P1name').innerHTML+' wins!');
+            alert(document.getElementById('P1name').innerHTML+' won!');
             p1++;
         }
         document.getElementById("P1score").innerHTML=p1;
