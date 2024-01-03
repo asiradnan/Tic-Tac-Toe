@@ -1,25 +1,45 @@
+# Tic-Tac-Toe Game
 
-# Tic-Tac-Toe!
+Welcome to the Tic-Tac-Toe game! This project was initially created in a single day and has now been updated to include a new "Play Against Computer" feature.
 
-A classic Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript. 
+## Play the Game
 
-## Live Demo [here](https://asiradnan.github.io/Tic-Tac-Toe/)!
-
+🌐 **Play Now:** [Tic-Tac-Toe Game](https://asiradnan.github.io/Tic-Tac-Toe/)
 
 ## Features
 
-- Change your names
-- Track your scores
-- Undo only YOUR last move
-- First move is toggled after every round. 
+- Change player names
+- Track scores
+- Undo your last move
+- First move is toggled after every round
+- **New:** Challenge yourself with the "Play Against Computer" mode
 
+## How to Play Against Computer
 
+- Simply visit the [game page](https://asiradnan.github.io/Tic-Tac-Toe/)
+- Click on "Play Against Computer"
+- Enjoy the game and test your skills against the computer opponent
 
-## Screenshots
+## Preview
 
-### Gameplay
-<img src="./Screenshots/snap2.png" height="400" width='300' alt="Gameplay Screenshot 2">
+Check out this short video to see the game in action, including the new "Play Against Computer" feature:
 
-### Result
-<img src="./Screenshots/snap1.png" height="400" width='300' alt="Gameplay Screenshot 1">
+[![Tic-Tac-Toe Preview](link_to_video_thumbnail)](link_to_video)
 
+## Project Structure
+
+The project is organized as follows:
+
+- `index.html`: The main HTML file.
+- `style.css`: CSS styles for the game.
+- `script.js`: JavaScript code for game logic.
+
+## How to Contribute
+
+If you're interested in contributing to the project, feel free to fork the repository and submit pull requests.
+
+## Feedback
+
+Your feedback is valuable! If you have any suggestions or encounter issues, please create an issue or reach out.
+
+Enjoy the game! 🎮
