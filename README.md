@@ -24,7 +24,7 @@ Welcome to the Tic-Tac-Toe game! This project was initially created in a single 
 
 Check out this short video to see the game in action, including the new "Play Against Computer" feature:
 
-[![Tic-Tac-Toe Preview](link_to_video_thumbnail)](Screenshots/TicTacToe Demo.mp4)
+[![Tic-Tac-Toe Preview](Screenshots/TicTacToe Demo.mp4)]
 
 ## Project Structure
 
