@@ -131,9 +131,7 @@ function go_on(){
     else if (_32.innerHTML == '&nbsp;') ans=_32;
     else if (_21.innerHTML == '&nbsp;') ans=_21;
     else if (_23.innerHTML == '&nbsp;') ans=_23;
-    console.log(_11.innerHTML, _12.innerHTML, _13.innerHTML);
-console.log(_21.innerHTML, _22.innerHTML, _23.innerHTML);
-console.log(_31.innerHTML, _32.innerHTML, _33.innerHTML);
+
 
     ans.innerHTML='&#9711;';
     ans.style.fontWeight='900';
