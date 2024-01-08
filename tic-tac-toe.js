@@ -4,8 +4,8 @@ let last_move;
 td = document.getElementsByTagName('td');
 for (let i=0;i<td.length;i++) td[i].addEventListener('click',move);
 
-function changeName(){
-    elem=document.getElementById('P1name');
+function changeName(value){
+    elem=document.getElementById(value);
     let x= prompt("Enter your name:",elem.innerHTML);
     elem.innerHTML=x;
 }
