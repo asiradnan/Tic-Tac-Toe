@@ -24,9 +24,8 @@ Welcome to the Tic-Tac-Toe game! This project was initially created in a single 
 
 Check out this short video to see the game in action, including the new "Play Against Computer" feature:
 
-<a href="https://youtu.be/FtsAgrvJmAk">
-  <img src="Screenshots/thumbnail.png" alt="Tic-Tac-Toe Preview" width="400" height="500">
-</a>
+
+https://github.com/asiradnan/Tic-Tac-Toe/assets/106885381/283439ac-6e7a-40c9-bb1a-e21b4ef71257
 
 ## Project Structure
 
