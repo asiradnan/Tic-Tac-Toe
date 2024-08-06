@@ -4,7 +4,7 @@ Welcome to the Tic-Tac-Toe game! This project was initially created in a single 
 
 ## Play the Game
 
-🌐 **Play Now:** [Tic-Tac-Toe Game](https://asiradnan.github.io/Tic-Tac-Toe/)
+🌐 **Play Now:** [Tic-Tac-Toe Game](https://tictactoe.asiradnan.com)
 
 ## Features
 
@@ -16,7 +16,7 @@ Welcome to the Tic-Tac-Toe game! This project was initially created in a single 
 
 ## How to Play Against Computer
 
-- Simply visit the [game page](https://asiradnan.github.io/Tic-Tac-Toe/)
+- Simply visit the [game page](https://tictactoe.asiradnan.com)
 - Click on "Play Against Computer"
 - Enjoy the game and test your skills against the computer opponent
 
