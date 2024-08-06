@@ -6,7 +6,9 @@ for (let i=0;i<td.length;i++) td[i].addEventListener('click',move);
 
 function changeName(value){
     elem=document.getElementById(value);
+    let last = elem.innerHTML;
     let x= prompt("Enter your name:",elem.innerHTML);
+    if (x==="") x=last;
     elem.innerHTML=x;
 }
 function rules() {
