@@ -1,46 +1,47 @@
 # Tic-Tac-Toe Game
 
-Welcome to the Tic-Tac-Toe game! This project was initially created in a single day and has now been updated to include a new "Play Against Computer" feature.
+**A clean, fast, and fun Tic-Tac-Toe game you can play solo or with a friend — now with computer AI mode.**
 
-## Play the Game
+## 🎮 Play Now
 
-🌐 **Play Now:** [Tic-Tac-Toe Game](https://tictactoe.asiradnan.com)
+🌐 [Play Tic-Tac-Toe](https://tictactoe.asiradnan.com)
 
-## Features
+## ✨ Features
 
-- Change player names
-- Track scores
-- Undo your last move
-- First move is toggled after every round
-- **New:** Challenge yourself with the "Play Against Computer" mode
+- Change player names  
+- Track scores across rounds  
+- Undo your last move  
+- First move alternates each round  
+- **New:** Play against the computer  
 
-## How to Play Against Computer
+## 🤖 How to Play Against Computer
 
-- Simply visit the [game page](https://tictactoe.asiradnan.com)
-- Click on "Play Against Computer"
-- Enjoy the game and test your skills against the computer opponent
+1. Go to the [game page](https://tictactoe.asiradnan.com)  
+2. Click “Play Against Computer”  
+3. Test your skills and enjoy  
 
-## Preview
+## 🎥 Preview
 
-Check out this short video to see the game in action, including the new "Play Against Computer" feature:
-
-
+Watch a quick demo showing how the game works, including the AI feature:  
 https://github.com/asiradnan/Tic-Tac-Toe/assets/106885381/283439ac-6e7a-40c9-bb1a-e21b4ef71257
 
-## Project Structure
+## 🗂️ Project Structure
 
-The project is organized as follows:
+- `index.html` – Main HTML structure  
+- `style.css` – Game styling  
+- `script.js` – Game logic and interactions  
 
-- `index.html`: The main HTML file.
-- `style.css`: CSS styles for the game.
-- `script.js`: JavaScript code for game logic.
+## 🤝 Contribute
 
-## How to Contribute
+Want to improve the game?  
+Fork the repo and open a pull request — all contributions welcome.
 
-If you're interested in contributing to the project, feel free to fork the repository and submit pull requests.
+## 💬 Feedback
 
-## Feedback
+Found a bug or have an idea?  
+[Open an issue](https://github.com/asiradnan/Tic-Tac-Toe/issues) or reach out directly.
 
-Your feedback is valuable! If you have any suggestions or encounter issues, please create an issue or reach out.
+## 📄 License
 
-Enjoy the game! 🎮
+This project is open source under the **MIT License**.
+
