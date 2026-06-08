@@ -2,7 +2,7 @@
 
 <img src="./screenshots/thumbnail.png" alt="Tic-Tac-Toe Screenshot" width="150">
 
-A clean, fast, and fun Tic-Tac-Toe game you can play solo or with a friend — now with computer AI mode.
+A classic Tic-Tac-Toe web application built using HTML, CSS, and JavaScript. Play against a friend or challenge a smart computer opponent. Additional features include persistent score tracking, undo functionality, and automatic win detection.
 
 > This was one of the early projects I built to learn and practice JavaScript and CSS.
 
