@@ -1,47 +1,33 @@
-# Tic-Tac-Toe Game
+# <img src="./logo.png" alt="Tic-Tac-Toe Icon" height="32" align="center"> Tic-Tac-Toe
 
-**A clean, fast, and fun Tic-Tac-Toe game you can play solo or with a friend — now with computer AI mode.**
+<img src="./screenshots/thumbnail.png" alt="Tic-Tac-Toe Screenshot" width="150">
 
-## 🎮 Play Now
+A clean, fast, and fun Tic-Tac-Toe game you can play solo or with a friend — now with computer AI mode.
 
-🌐 [Play Tic-Tac-Toe](https://tictactoe.asiradnan.com)
+> This was one of the early projects I built to learn and practice JavaScript and CSS.
 
-## ✨ Features
+## Live Link
 
-- Change player names  
-- Track scores across rounds  
-- Undo your last move  
-- First move alternates each round  
-- **New:** Play against the computer  
+Play Tic-Tac-Toe: [https://tictactoe.asiradnan.com](https://tictactoe.asiradnan.com)
 
-## 🤖 How to Play Against Computer
 
-1. Go to the [game page](https://tictactoe.asiradnan.com)  
-2. Click “Play Against Computer”  
-3. Test your skills and enjoy  
+## Features
 
-## 🎥 Preview
+- **Game Modes:** Play locally with a friend or challenge a smart computer AI.
+- **Score Tracking:** Keep track of player wins across multiple games.
+- **Undo Moves:** Undo your last move in two-player mode to correct mistakes.
+- **Move Confirmation:** Confirm your move before the Computer plays to prevent accidental clicks.
+- **Fair Play Rotation:** Automatically alternate the starting player after each completed game.
+- **Win Detection:** Automatically detect winning combinations and draw scenarios.
+- **Custom Names:** Change player names easily through an interactive prompt.
+- **Responsive Design:** Play on various devices with a clean, intuitive layout.
 
-Watch a quick demo showing how the game works, including the AI feature:  
-https://github.com/asiradnan/Tic-Tac-Toe/assets/106885381/283439ac-6e7a-40c9-bb1a-e21b4ef71257
+## Demo and Screenshots 
+<video src="./screenshots/TicTacToe Demo.mp4" controls width="300"></video>
+<img src="./screenshots/snap2.png" alt="Calculator App Screenshot" width="150">
+<img src="./screenshots/snap1.png" alt="Calculator App Screenshot" width="150">
 
-## 🗂️ Project Structure
 
-- `index.html` – Main HTML structure  
-- `style.css` – Game styling  
-- `script.js` – Game logic and interactions  
 
-## 🤝 Contribute
 
-Want to improve the game?  
-Fork the repo and open a pull request — all contributions welcome.
-
-## 💬 Feedback
-
-Found a bug or have an idea?  
-[Open an issue](https://github.com/asiradnan/Tic-Tac-Toe/issues) or reach out directly.
-
-## 📄 License
-
-This project is open source under the **MIT License**.
 
