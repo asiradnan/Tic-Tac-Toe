@@ -27,7 +27,8 @@ Play Tic-Tac-Toe: [https://tictactoe.asiradnan.com](https://tictactoe.asiradnan.
 <img src="./screenshots/snap2.png" alt="Calculator App Screenshot" width="150">
 <img src="./screenshots/snap1.png" alt="Calculator App Screenshot" width="150">
 
-
+## License
+This project is open source under the **MIT License**.
 
 
 
